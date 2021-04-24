@@ -30,7 +30,7 @@ const SignUp = ({ navigation }: AuthNavigationProps<'SignUp'>) => {
           style={{ height: 130 }}>
           <IconSvg height={50} width={40} />
           <Text textAlign='center' variant='hero'>
-            Sing Up
+            Sign Up
           </Text>
         </Box>
       </Card>
