@@ -6,23 +6,23 @@ export default class Footer extends Component {
         return (
             <View style={styles.footer}>
                 <TouchableOpacity>
-                <Image source={require('../assets/Home.png')} 
+                <Image source={require('../dashboard-images/Home.png')} 
                 style={styles.home}/>
                 </TouchableOpacity>
                 <TouchableOpacity>
-                <Image source={require('../assets/search1.png')} 
+                <Image source={require('../dashboard-images/search1.png')} 
                 style={styles.home}/>
                 </TouchableOpacity>
                 <TouchableOpacity>
-                <Image source={require('../assets/myCourses.png')} 
+                <Image source={require('../dashboard-images/myCourses.png')} 
                 style={styles.home}/>
                 </TouchableOpacity>
                 <TouchableOpacity>
-                <Image source={require('../assets/profile.png')} 
+                <Image source={require('../dashboard-images/profile.png')} 
                 style={styles.home}/>
                 </TouchableOpacity>
                 <TouchableOpacity>
-                <Image source={require('../assets/more.png')} 
+                <Image source={require('../dashboard-images/more.png')} 
                 style={styles.home}/>
                 </TouchableOpacity>
                 

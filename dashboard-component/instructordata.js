@@ -7,7 +7,7 @@ export default class Instructordata extends Component {
         return (
             <View style={styles.instructor}>
                 <View>
-                    <Image source={require('../assets/profile.png')}
+                    <Image source={require('../dashboard-images/profile.png')}
                     style={styles.profilepic}/>
                 </View>
                 <View style={styles.instructordata}>

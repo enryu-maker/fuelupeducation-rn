@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, StyleSheet, View, ScrollView, Image } from 'react-native'
+import { Text, StyleSheet, View, ScrollView, Image, TouchableOpacity } from 'react-native'
 import Event from './Event'
 export default class Upcoming extends Component {
     render() {
@@ -31,10 +31,13 @@ export default class Upcoming extends Component {
                         -----------------------------------------------------------------------------
                         {'\n'}
                         <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <Image
-                        style={{width:25,height:25}}
-                        source={require('../assets/calender.png')}/>
-                        <Text style={{fontSize:15,marginLeft:2}}>26 may 2010</Text>
+                            <TouchableOpacity>
+                                <Image
+                                style={{width:25,height:25}}
+                                source={require('../dashboard-images/calender.png')}/>
+                            </TouchableOpacity>
+                        
+                        <Text style={{fontSize:15,marginLeft:2}}>{Date.now().toString()}</Text>
                         </View>
                     </Text>
                     <ScrollView
@@ -54,7 +57,7 @@ const styles = StyleSheet.create({
         marginLeft:15,
         marginRight:15,
         borderRadius:15,
-        height:450,
+        height:'auto',
         shadowColor: "#000",
         shadowOffset: {
             width: 0,

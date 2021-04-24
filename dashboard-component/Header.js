@@ -10,11 +10,11 @@ export default class Header extends Component {
                 <View style={styles.mainheader}>
                     <TouchableOpacity>
                         <Image style={styles.logoimage1}
-                        source={require('/home/kira/Desktop/react-project/student/assets/Vector.png')}/>
+                        source={require('../dashboard-images/Vector.png')}/>
                     </TouchableOpacity>
                 
                     <Image style={styles.logoimage2}
-                    source={require('/home/kira/Desktop/react-project/student/assets/WomanTel.png')}/>
+                    source={require('../dashboard-images/WomanTel.png')}/>
                     
                    
                     <View style={styles.headertext}>

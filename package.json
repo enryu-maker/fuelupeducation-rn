@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@react-native-community/art": "^1.2.0",
+    "@react-native-community/picker": "^1.8.1",
     "react": "17.0.1",
     "react-native": "0.64.0",
+    "react-native-material-dropdown": "^0.11.1",
     "react-native-pie": "^1.1.2",
     "react-native-svg": "^12.1.1",
     "react-native-svg-charts": "^5.4.0",

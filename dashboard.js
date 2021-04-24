@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 import { SafeAreaView,ScrollView,StatusBar,StyleSheet,Text,useColorScheme,View} from 'react-native'
-import Header from './components/Header'
-import Attendance from './components/Attend'
-import Course from './components/Course'
-import Exam from './components/Exam'
-import Discussion from './components/Discussion'
+import Header from './dashboard-component/Header'
+import Attendance from './dashboard-component/Attend'
+import Course from './dashboard-component/Course'
+import Exam from './dashboard-component/Exam'
+import Assignments from './dashboard-component/Assignment'
+import Discussion from './dashboard-component/Discussion'
 
-import Certificate from './components/Certificate'
-import Notebook from './components/Notebook'
-import Upcoming from './components/Upcoming'
-import Following from './components/Following'
-import Footer from './components/Footer'
+import Certificate from './dashboard-component/Certificate'
+import Notebook from './dashboard-component/Notebook'
+import Upcoming from './dashboard-component/Upcoming'
+import Following from './dashboard-component/Following'
+import Footer from './dashboard-component/Footer'
 export default class Dashboard extends Component {
     render() {
         return (
@@ -22,6 +23,8 @@ export default class Dashboard extends Component {
                     <Header/>
                     <Attendance/>
                     <Course/>
+                    <Exam/>
+                    <Assignments/>
                     <Discussion/>
                     <Certificate/>
                     <Notebook/>
