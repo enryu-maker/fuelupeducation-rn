@@ -37,7 +37,7 @@ export default class Discussion extends Component {
         ];
         const avtarvalue=(data.map((avatarcard,i)=>{
             return <Instructordata id={data[i].id} name={data[i].name} work={data[i].work}/>}))
-        //const screenHeight = Dimensions.get('window').height
+        const screenHeight = Dimensions.get('window').height
         return (
             <View style={styles.attend}>
                     <Text style={styles.attendheader}>

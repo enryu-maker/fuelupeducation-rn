@@ -4,6 +4,7 @@ import { StatusBar } from 'react-native'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 import { ThemeProvider } from '@shopify/restyle'
 import App from './App'
+
 import theme from './src/theme'
 
 const AppProvider = () => {

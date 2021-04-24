@@ -4,6 +4,7 @@ import Header from './dashboard-component/Header'
 import Attendance from './dashboard-component/Attend'
 import Course from './dashboard-component/Course'
 import Exam from './dashboard-component/Exam'
+import Assignments from './dashboard-component/Assignment'
 import Discussion from './dashboard-component/Discussion'
 
 import Certificate from './dashboard-component/Certificate'
@@ -22,6 +23,8 @@ export default class Dashboard extends Component {
                     <Header/>
                     <Attendance/>
                     <Course/>
+                    <Exam/>
+                    <Assignments/>
                     <Discussion/>
                     <Certificate/>
                     <Notebook/>
